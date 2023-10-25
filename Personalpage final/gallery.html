@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Profile</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="diary.html">Diary</a></li>
+                <li><a href="diarylisting.php">Diarylisting</a></li>
+
+            </ul>
+        </nav>
+    </header>
+</body>
+<style>
+    /* CSS for image grid */
+    .image-grid {
+        display: flx;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    .image-grid img {
+        width: 300px;
+        height: 200px;
+        border: 3px solid #000000;
+        border-radius: 13px;
+        box-shadow: 4px 7px 0px #000000;
+        cursor: pointer;
+        margin: 10px;
+        transition: 100ms;
+    }   
+
+    .image-grid :hover{
+        filter: grayscale(-1);
+        transform: scale(1);
+
+
+    }
+
+    /* CSS for audio playlist */
+    .audio-playlist {
+        margin-top: 20px;
+    }
+        /* CSS styles for the h1 element */
+        h1 {
+            font-size: 100px;
+            color: #fff9f9;
+            text-align: left;
+            /* You can add more styles here as needed */
+        }
+
+        p {
+            font-size: 10px;
+            color: rgb(52, 24, 65);
+            text-align: right;
+            /* You can add more styles here as needed */
+        }
+    
+        h2 {
+            font-size: 100px;
+            color:  rgb(255, 255, 255);
+            text-align: left;
+            /* You can add more styles here as needed */
+        }
+</style>
+<main>
+
+    <h1>My Gallery</h1>
+    <p>Here are some images and audio files I'd like to share with you.</p>
+
+    <!-- Image Grid -->
+    <div class="image-grid">
+        <img src="380494814_973272870823330_8506641532434317359_n.jpg" alt="Image 1">
+        <img src="380098358_989983475595817_7908648785925863796_n.jpg" alt="Image 2">
+        <img src="380245749_1250764898945802_2174423552122740289_n.jpg" alt="Image 3">
+        <img src="380423372_853423973161424_8274110266983089838_n.jpg" alt="Image 4">
+        <img src="370548262_673324918188633_7888222766042211606_n.jpg" alt="Image 5">
+        <img src="370591269_115145425016038_6969534331715750352_n.jpg" alt="Image 6">
+        <img src="356936665_2424108304434041_4872920939682516746_n.jpg" alt="Image 7">
+        <img src="380092514_366632995809758_3054388769715008615_n.jpg" alt="Image 8">
+        <img src="380145412_1018544915863765_3516083987086517167_n.jpg" alt="Image 9">
+        <img src="368023386_277065781373428_8380046317814945954_n.jpg" alt="Image 10">
+
+    </div>
+
+    <!-- Short Description of Images -->
+    <p>These images reflect some of my favorite moments and interests. I hope you enjoy them as much as I do.</p>
+
+            <!-- Audio Playlist -->
+            <div class="audio-playlist">
+                <h1>Music</h1>
+                </h2>
+                <ul>
+                    <li>
+                        <a href="teardrops.mp3"target="_blank">Teardrops on my guitar</a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"></a>
+                    <li>
+                        <a href="" target="_blank"></a>
+                </ul>
+            </div>
+        </main>
+        </html>
